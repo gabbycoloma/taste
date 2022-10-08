@@ -2,7 +2,6 @@
 *{
 
   font-family: 'Open Sans', sans-serif;
-
   color: black;
 
 }
@@ -11,46 +10,49 @@ a{
 }
 
 
-
 #logo-text{
-  color: #BDC89C;
-  font-size: 2.1rem;
+  color: white;
+  font-size: 1.6rem;
   font-weight: 800;
   line-height: 46px;
   letter-spacing: -0.02em;
 }
 
+.navbar{
+  background-color: #BDC89C;
+}
 
 #aboutus-button{
   font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 33px;
 }
 #login-button{
-  border: 1px solid #000000;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 6px 24px;
   font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 33px;
+  background-color: #BDC89C;
   /* identical to box height */
 
   letter-spacing: -0.02em;
 }
 
 #signup-button{
-  background-color: #BDC89C;
+  background-color: #DC6769;
   border: none;
   border-radius: 10px;
   padding: 6px 18px;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 33px;
   /* identical to box height */
 }
@@ -58,3 +60,33 @@ a{
 .carousel-item {
   height : 38rem;
   }
+
+  #featured-text{
+    font-weight: 600;
+  }
+
+  .checked {
+    color: #DC6769;
+  }
+
+
+.stars{
+  justify-content: start;
+}
+
+.header-account{
+  display: flex;
+  float: left;
+}
+.username-header{
+font-weight: 600;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+#img-DP{
+  height: 40px;
+  width: 40px;
+  border: 2px solid #BDC89C;
+  border-radius: 50%;
+}
