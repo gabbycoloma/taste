@@ -45,6 +45,10 @@ a{
   width: 50%;
 }
 
+.title{
+  font-weight: 800;
+}
+
 .box{
   width:75%;
   margin: 100px auto;
@@ -76,4 +80,12 @@ a{
     margin: 0;
 }
 
+#card-text{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
 
+.card-text{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}

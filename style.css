@@ -90,3 +90,20 @@ margin-top: 10px;
   border: 2px solid #BDC89C;
   border-radius: 50%;
 }
+
+.card-text{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+
+.card-body{
+  text-align: left;
+}
+
+#body-card{
+  float: left;
+}
+
+.like-icon{
+  float: left;
+}
