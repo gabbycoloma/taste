@@ -1,0 +1,79 @@
+
+/* ABOUT US PAGE */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+  
+#logo-text{
+    color: white;
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+}
+
+#taste-logo{
+    margin: 10px auto;
+    padding: 0;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+
+#about-navbar{
+    margin: auto;
+
+    border-bottom: 1px solid lightgray;
+    background-color: #BDC89C;
+}
+
+
+#about-us{
+  margin: 75px auto;
+  text-align: center;
+
+  width: 50%;
+}
+
+.box{
+  width:75%;
+  margin: 100px auto;
+}
+
+.developers{
+  max-width: 300px;
+  margin: 25px auto;
+}
+
+.card-group-title{
+  text-align: center;
+}
+
+.hr-line{
+  background-color: #000000;
+  height: 2px;
+
+  width: 80%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-desc{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
