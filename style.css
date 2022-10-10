@@ -35,23 +35,35 @@ a{
   font-size: 16px;
   line-height: 33px;
 }
+#aboutus-button:hover{
+  color: #DC6769 !important;
+}
 #login-button{
   border: 1px solid white;
   border-radius: 10px;
   padding: 6px 24px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
   font-weight: 800;
   font-size: 16px;
   line-height: 33px;
-  background-color: #BDC89C;
+  color: white;
   /* identical to box height */
-
   letter-spacing: -0.02em;
 }
 
+
+.nav-item.dropdown a:hover{
+  color: #DC6769 !important;
+}
+#navbarDropdown {
+  color: pink;
+}
+.btn-outline-dark :hover{
+  background-color: gray;
+}
+
 #signup-button{
-  background-color: #DC6769;
+
   border: none;
   border-radius: 10px;
   padding: 6px 18px;
@@ -61,6 +73,9 @@ a{
   font-size: 16px;
   line-height: 33px;
   /* identical to box height */
+}
+.btn-danger{
+  background-color: #DC6769;
 }
 
 #browse-dropdown{
