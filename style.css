@@ -110,7 +110,7 @@ margin-left: 10px;
 margin-top: 10px;
 }
 
-#img-DP{
+.img-DP{
   height: 40px;
   width: 40px;
   border: 2px solid #BDC89C;
@@ -209,4 +209,47 @@ margin-top: 10px;
 .card-text{
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
+}
+
+#search-box{
+  border-radius: 10px;
+}
+.input-group-text{
+  background-color: white;
+}
+
+.input-group-prepend{
+  border-radius: 10px;
+}
+
+.input-group{
+  border-radius: 10px;
+}
+
+.white-border{
+  border: 1px solid white;
+}
+
+label {
+  display: grid;
+  grid-template: 1fr / auto 1fr;
+  gap: 1px;
+  
+  
+  border: 1px solid #CFD5DB;
+  border-radius: 5px;
+  background: #fafafa;
+  padding: 12px;
+  color: #6C757D;
+  cursor: text;
+}
+
+label:focus-within {
+  border: 1px solid #000;
+}
+
+label>input {
+  outline: none;
+  border: none;
+  background: transparent;
 }
