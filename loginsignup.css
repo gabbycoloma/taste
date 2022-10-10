@@ -33,7 +33,7 @@ a{
 }
 
 .user-modal {
-  background-image: url('images/carousel/carousel_1.jpg');
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
@@ -63,7 +63,7 @@ a{
   position: relative;
   width: 90%;
   max-width: 600px;
-  background: #FFF;
+  background: white;
   margin: 3em auto 4em;
   cursor: auto;
   border-radius: 0.25em;
@@ -105,13 +105,14 @@ a{
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: #d2d8d8;
+  background: white;
   color: #809191;
 	text-decoration: none;
 }
 .user-modal-container .switcher a.selected {
-  background: #FFF;
-  color: #505260;
+
+  background: #BDC89C;
+  color: white;
 }
 @media only screen and (min-width: 600px) {
   .user-modal-container {
