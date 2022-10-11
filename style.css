@@ -288,9 +288,6 @@ label>input {
   border-bottom: 2px solid white;
 }
 
-#active-link:hover{
-  color: white !important;
-}
 
 .card {
   margin: 0 auto; /* Added */
