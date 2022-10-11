@@ -105,17 +105,24 @@ a{
   float: left;
   align-items: center;
 }
-.username-header a{
+
+.username-header{
+  color: black;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+.username-mainheader a{
 color: black;
 font-weight: 600;
 margin-left: 10px;
 margin-top: 10px;
 }
-.username-header a{
+.username-mainheader a{
   text-decoration: none;
 }
 
-.username-header a:hover{
+.username-mainheader a:hover{
   color: #DC6769;
   border-bottom: 1px solid #DC6769;
 }
