@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=PT+Sans&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=PT+Sans&display=swap');
       </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -20,14 +20,34 @@
   <body>
  
  
-    <nav class="navbar sticky-top navbar-expand-sm" id="navbar">
+    <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
       <a href="index.html" class="navbar-brand mb-0 ml-5 mt-0">
         <img class="d-inline-block align-center mb-1"src="images\logo\logo.png" height="35" width="35" alt="taste-logo">
         <span class="logo-text">taste</span></a>
+        <form class="form-inline my-2 my-lg-0 ml-3">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light" type="submit"><iconify-icon inline icon="il:search"></iconify-icon></iconify-icon></button>
+        </form>
 
-        <ul class="navbar-nav ml-auto mr-5">
-          <li class="nav-item dropdown mr-5" id="browse-dropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active mt-2 mr-3 ml-5">
+            <a class="nav-link active" href="#" id="active-link" >Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown mr-5 mt-2" id="browse-dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Review
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="home.html">Create Review</a>
+              <a class="dropdown-item" href="#">Edit Review</a>
+              <a class="dropdown-item" href="#">Delete Review</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto mr-3">
+        
+          <li class="nav-item dropdown mr-5" id="browse-dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Profile">
               <img src="images/aboutus/Coloma.jpg" alt="defaultDP"  class="img-DP white-border" class="">
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -38,9 +58,54 @@
           </li>
       </ul>
     </nav>
-      
-      
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <div class="col">       
+          <div class="card" style="width: 40rem;">
+            <div class="card-header" id="card-header">
+              <div class="header-account">
+                <a href=""><img src="images/logo/defaultDP.jpg" alt="defaultDP"  class="img-DP large-dp" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile"></a>
+                
+                  <div class="info-header">
+                    <h6 class="username-header"><a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">lgc.gabby</a></h6> 
+                    <h6 id="date">September 10, 2002</h6>
+                  </div>
+              </div>
+            </div>
+            <a href="" data-bs-placement="bottom" title="View Post"><img class="card-img-top" src="images/carousel/carousel_1.jpg" alt="Card image cap"></a>
+            <div class="card-body" id="card-body-home">
+              <a href="#"><h5 class="card-title" data-bs-placement="left" title="View Post">Review Title</h5></a>
+              <h6 class="card-subtitle mb-2 text-muted" id="card-subtitle">Food/Product name</h6>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <p class="card-text" style="margin-top: 10px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <iconify-icon icon="ant-design:like-outlined" width="25" height="25" class="like-icon"></iconify-icon>
+              <small class="text-muted">12</small>
+            </div>
+            <div class="card-footer">
 
+              <small class="text-muted">0 comments</small>
+
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+    </div>
+
+    <script>
+      $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

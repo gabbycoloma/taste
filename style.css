@@ -51,7 +51,7 @@ a{
   letter-spacing: -0.02em;
 }
 
-.nav-item.dropdown a:hover{
+.nav-item a:hover{
   color: #DC6769 !important;
 }
 #navbarDropdown {
@@ -103,11 +103,24 @@ a{
 .header-account{
   display: flex;
   float: left;
+  align-items: center;
 }
-.username-header{
+.username-header a{
+color: black;
 font-weight: 600;
 margin-left: 10px;
 margin-top: 10px;
+}
+.username-header a{
+  text-decoration: none;
+}
+
+.username-header a:hover{
+  color: #DC6769;
+  border-bottom: 1px solid #DC6769;
+}
+#username{
+  color: black;
 }
 
 .img-DP{
@@ -115,6 +128,12 @@ margin-top: 10px;
   width: 40px;
   border: 2px solid #BDC89C;
   border-radius: 50%;
+}
+
+
+.large-dp{
+  height: 50px;
+  width: 50px;
 }
 
 .card-text{
@@ -133,6 +152,11 @@ margin-top: 10px;
 .like-icon{
   float: left;
 }
+
+.like-icon:hover{
+  color: #DC6769;
+}
+
 
 #logo-text{
     color: white;
@@ -252,4 +276,50 @@ label>input {
   outline: none;
   border: none;
   background: transparent;
+}
+
+
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+
+.nav-item.active{
+  border-bottom: 2px solid white;
+}
+
+#active-link:hover{
+  color: white !important;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+#date{
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.btn btn-light{
+  border: 0;
+}
+
+.text-muted{
+  font-size: 15px;
+}
+
+.card-title a{
+  color: black;
+}
+
+.card-title a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
 }
