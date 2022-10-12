@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=PT+Sans&display=swap');
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/logo/logo2.png" type="image/icon type">
+    
+    <title>Taste - Home</title>
+  </head>
+  <body>
+ 
+ 
+    <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
+      <a href="index.html" class="navbar-brand mb-0 ml-5 mt-0">
+        <img class="d-inline-block align-center mb-1"src="images\logo\logo.png" height="35" width="35" alt="taste-logo">
+        <span class="logo-text">taste</span></a>
+        <form class="form-inline my-2 my-lg-0 ml-3">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-light" type="submit"><iconify-icon inline icon="il:search"></iconify-icon></iconify-icon></button>
+        </form>
+
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mt-2 ml-2">
+            <a class="nav-link" href="home.html"  >Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown mt-2 active" id="browse-dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="active-link">
+              Review
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="createreview.html">Create Review</a>
+              <a class="dropdown-item" href="#">Edit Review</a>
+              <a class="dropdown-item" href="#">Delete Review</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto mr-3">
+        
+          <li class="nav-item dropdown mr-5" id="browse-dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Profile">
+              <img src="images/aboutus/Coloma.jpg" alt="defaultDP"  class="img-DP white-border" class="">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="home.html">View Profile</a>
+              <a class="dropdown-item" href="#">Edit Profile</a>
+              <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+          </li>
+      </ul>
+    </nav>
+
+    <!--REVIEW POST-->
+    <div class="container mt-5">
+      <div class="mb-3">
+        <div class="header-viewpost">
+          <a href="view.html"><img src="images/home/spencer-ngo.jpg" alt="defaultDP"  class="img-DP viewpost-dp" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile"></a>
+              <h6 class="username-viewpost"><a href="view.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">tenzedzombie</a></h6> <!--username-->
+        </div>
+      </div>
+          <div class="mb-1">
+            <label for="restaurant" class="form-label"><h2 class="form-heading">Italiannis</h2></label> <!--title-->
+          </div>
+
+          <div class="mb-1">
+            <label for="restaurant" class="form-label"><h5>Shrimp Garlic and Olive Pizza</h5></label> <!--Food/Product-->
+          </div>
+
+          <div class="mb-1">
+            <label for="date" class="form-label"><h6>October 2, 2021</h6></label> 
+          </div>
+
+          <div class="mb-3">
+            <label for="stars" class="form-label">                
+            <div class="stars"> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div></label>
+          </div>
+
+          <div class="mb-3">
+            <img src="images/home/pizza-italianis.jpg" class="img-fluid img-viewpost" alt="Responsive image"> <!--Post Image-->
+          </div>
+          <div class="mb-3"> <!--Review Text-->
+            <p>I have never been a fan of pizza because all the pizza’s I have tasted were either too heavy on the stomach or just really greasy. But the Pizza here in Italiannis is very thin and light. Moreover, the garlic and olive really complement the shrimp. All in all, great pizza, highly recommended for people who want to get something light.</p>
+          </div>
+          <hr class="mb-3">
+          <div class="mb-3">
+            <h3 class="form-heading">2 Comments</h3> 
+          </div>
+
+          <div>
+            <label for="restaurant" class="form-label"><h5>Add a comment</h5></label>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Comment..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Comment</button>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="comment-viewpost"> <!--Comment-->
+              <div class="picuser">
+                <h2 class="username-viewpost" id="username"><a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">andrea.banana</a></h2> 
+              </div>
+              <p style="margin-left: 12px;">Loved your review! Professional and straight to the point.</p>
+            </div>
+
+            <div class="comment-viewpost">
+              <div class="picuser">
+                <h2 class="username-viewpost" id="username"><a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">jaylen.max</a></h2> 
+              </div>
+              <p style="margin-left: 12px;">You should try their pasta as well dude! Sobrang sarap tas may discount pa on Saturdays with BDO credit card so super sulit</p>
+            </div>
+          </div>
+
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>  
+  </body>
+</html>
