@@ -26,8 +26,8 @@ a{
   color: white;
   font-weight: 800;
   font-size: 16px;
-
 }
+
 #aboutus-button{
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -262,7 +262,9 @@ margin-top: 10px;
   border: 1px solid white;
 }
 
-
+.active-link{
+  color: white;
+}
 
 .navbar-nav > li {
   float: left;
@@ -368,4 +370,8 @@ margin-left: 10px;
   font-size: 16px;
   line-height: 33px;
   /* identical to box height */
+}
+
+.nav-active{
+  color: white;
 }
