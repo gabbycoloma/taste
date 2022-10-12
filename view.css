@@ -8,18 +8,70 @@
 a{
   text-decoration: none;
 }
-
-
+.navbar{
+  background-color: #BDC89C;
+}
 #logo-text{
   color: white;
-  font-size: 1.6rem;
+  font-size: 2.1rem;
   font-weight: 800;
   line-height: 46px;
   letter-spacing: -0.02em;
 }
+.logo-text{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+}
+.btn btn-light{
+  border: 0;
+}
+#active-link:hover{
+  color: white !important;
+}
+#browse-dropdown{
+  color: white;
+}
 
-.navbar{
-  background-color: #BDC89C;
+.img-DP{
+  height: 40px;
+  width: 40px;
+  border: 2px solid #BDC89C;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.white-border{
+  border: 1px solid white;
+}
+.nav-item.active{
+  border-bottom: 2px solid white;
+}
+#navbarDropdown {
+  color: pink;
+}
+#browse-dropdown{
+  color: white;
+}
+.dropdown-item{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+.nav-item a:hover{
+  color: #DC6769 !important;
+}
+
+.nav-item.active{
+  border-bottom: 2px solid white;
+}
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+
 }
 
 
@@ -239,7 +291,33 @@ height: 24px;
 display: flex;
   background-color: transparent;
 }
+#likeicon{
+  background-size: 25px 24px;
+ background-position: 0px 0px;
+ width: 24px;
+ height: 24px;
+ display: inline-flex;
+   background-color: transparent;
+ }
+ #commenticon{
+  background-size: 25px 24px;
+ background-position: 0px 0px;
+ width: 24px;
+ height: 24px;
+ display: inline-flex;
+   background-color: transparent;
+ }
 #makepost{
+  
+  background-size: 25px 24px;
+background-position: 0px 0px;
+width: 24px;
+height: 24px;
+display: inline-flex;
+  background-color: transparent;
+}
+#replypost{
+  float: inline-end;
   background-size: 25px 24px;
 background-position: 0px 0px;
 width: 24px;
@@ -686,21 +764,27 @@ display: flex;
 
 .p-acts {
   overflow: hidden;
+  vertical-align: middle;
 }
 
 .p-act {
-  width: 24px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   height: 24px;
+
   color: #a3a6aa;
   cursor: pointer;
 }
 
 .p-act span {
-  position: relative;
-  top: 1px;
-  width: 20px;
+  flex-direction: row;
+  justify-content: end;
+  bottom: 5px;
+  display: inline-flex;
   font-size: 15px;
-  color: #a3a6aa;
+  color: black;
 }
 
 .like {
@@ -711,6 +795,7 @@ display: flex;
 .comment {
   width: 50px;
   float: left;
+  margin-right: 10px;
 }
 
 .p-act i {
@@ -723,8 +808,9 @@ display: flex;
 }
 
 .share {
+  display: block;
   float: right;
-  transform: rotateY(180deg);
+  width: 100px;
   margin-right: -1px;
 }
 
@@ -737,5 +823,20 @@ display: flex;
   color: #4267b2;
   font-size: 32px;
   display: block;
+}
+.desc-title {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--accent);
+    color: var(--text-accent);
+    font-weight: 600;
+    width: 380px;
+    text-align: center;
+}
+
+.desc-body {
+    color: var(--text-subtle);
+    text-align: justify;
+    padding: 0 1rem;
 }
 /* Content area finished */
