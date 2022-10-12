@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/logo/logo2.png" type="image/icon type">
     
@@ -30,11 +30,11 @@
         </form>
 
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active mt-2 ml-2">
-            <a class="nav-link active" href="#" id="active-link" >Home<span class="sr-only">(current)</span></a>
+          <li class="nav-item mt-2 ml-2">
+            <a class="nav-link" href="home.html"  >Home<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown mt-2" id="browse-dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item dropdown mt-2 active" id="browse-dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="active-link">
               Review
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -42,9 +42,6 @@
               <a class="dropdown-item" href="#">Edit Review</a>
               <a class="dropdown-item" href="#">Delete Review</a>
             </div>
-          </li>
-          <li class="nav-item mt-2 mr-3 ">
-            <a class="nav-link" href="#">Friends</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto mr-3">
@@ -61,6 +58,71 @@
           </li>
       </ul>
     </nav>
+
+    <div class="container mt-5">
+      <div class="mb-3">
+        <div class="header-viewpost">
+          <a href="view.html"><img src="images/aboutus/Coloma.jpg" alt="defaultDP"  class="img-DP viewpost-dp" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile"></a>
+              <h6 class="username-viewpost"><a href="view.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">lgc.gabby</a></h6> 
+        </div>
+      </div>
+          <div class="mb-1">
+            <label for="restaurant" class="form-label"><h2 class="form-heading">Pho Hoa</h2></label>
+          </div>
+
+          <div class="mb-1">
+            <label for="restaurant" class="form-label"><h5>Pho - Vegetable Noodle Soup</h5></label>
+          </div>
+
+          <div class="mb-1">
+            <label for="date" class="form-label"><h6>September 10, 2021</h6></label>
+          </div>
+
+          <div class="mb-3">
+            <label for="stars" class="form-label">                
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div></label>
+          </div>
+
+          <div class="mb-3">
+            <img src="images/carousel/carousel_1.jpg" class="img-fluid img-viewpost" alt="Responsive image">
+          </div>
+          <div class="mb-3">
+            <p>This is my first time having Pho. First thing I liked about Pho was the soup. It was light on the stomach and the broth was tasty.The noodles were thin and wide, and soaked up the soup which also made it very tasty. Overall, my first impression of Pho is good.</p>
+          </div>
+          <hr class="mb-3">
+          <div class="mb-3">
+            <h3 class="form-heading">1 Comment</h3>
+
+          </div>
+
+
+          <div>
+            <label for="restaurant" class="form-label"><h5>Add a comment</h5></label>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Comment..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Comment</button>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="comment-viewpost">
+              <div class="picuser">
+                <h2 class="username-viewpost" id="username"><a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Profile">eric.adren</a></h2> 
+
+              </div>
+              <p style="margin-left: 12px;">I quite liked the taste of Pho as well. But I wasnt a fan of the smell.</p>
+            </div>
+          </div>
+
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

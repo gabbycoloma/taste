@@ -10,6 +10,14 @@ a{
 }
 
 
+.home-heading{
+  color: white;
+}
+
+.home-heading a{
+  color: white;
+}
+
 .logo-text{
   color: white;
   font-size: 1.8rem;
@@ -378,4 +386,79 @@ margin-left: 10px;
 
 .card-home{
   min-height: 400px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+/* View Post style */
+
+.viewpost-dp{
+  height: 150px;
+  width: 150px;
+}
+
+.header-viewpost{
+  display: flex;
+  align-items: center;
+}
+
+.username-viewpost a{
+font-size: 22px;
+color: black;
+font-weight: 600;
+margin-left: 10px;
+margin-top: 10px;
+}
+.username-viewpost a{
+  text-decoration: none;
+}
+
+.username-viewpost a:hover{
+  color: #DC6769;
+  border-bottom: 1px solid #DC6769;
+}
+
+.img-viewpost{
+  width: 100%;
+  height: 40vw;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comment-viewpost{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: inherit;
+}
+.comment-viewpost a{
+color: black;
+font-weight: 600;
+margin-left: 10px;
+
+}
+.comment-viewpost a{
+  text-decoration: none;
+}
+
+.comment-viewpost.img-DP a:hover{
+  color: #DC6769;
+  border-bottom: 1px solid #DC6769;
+}
+
+#comment-viewpost{
+  font-size: 26px;
+  font-weight: 400;
+  margin-left: 12px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
