@@ -73,7 +73,7 @@
           </div>
           <div id="u-name">Louis Coloma</div>
           <div class="tb" id="m-btns">
-              <div class="m-btn"><span class="pen"></span> Edit Profile</div>
+              <div class="m-btn"><span data-toggle="modal" data-target="#edit-profile">Edit Profile</span> </div>
           </div>
         </div>
         <div id="black-grd"></div>
@@ -197,6 +197,33 @@
 
       <!-- Pop Up Modal for Friends List-->
       <div class="modal fade" id="friend-list">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Friend List</h5>
+              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="friends">
+                <div class="friend-avatar"><img class="friend-dp" src="/images/view/Friends/eric-hoag.jpg" alt="friend-img"></div>
+                <span class="friend-name">John Doe</span>
+              </div>
+              <div class="friends">
+                <span class="friend-avatar"><img class="friend-dp" src="/images/view/Friends/jaylen-maxim.jpg" alt="friend-img"></span>
+                <span class="friend-name">James Ho</span>
+              </div>
+              <div class="friends">
+                <span class="friend-avatar"><img class="friend-dp" src="/images/view/Friends/spencer-ngo.jpg" alt="friend-img"></span>
+                <span class="friend-name">Mary Lee</span>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="edit-profile">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
