@@ -874,6 +874,11 @@ display: flex;
   font-weight: 500;
 }
 
-
+.stars{
+  justify-content: start;
+}
+.checked {
+  color: #DC6769;
+}
 
 /* Content area finished */
