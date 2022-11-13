@@ -158,11 +158,12 @@ display: flex;
 }
 
 #edit-profile {
-  position: absolute;
+  
   right: 20px;
   bottom: 21px;
   line-height: 1;
   cursor: pointer;
+  
 }
 
 #edit-profile i {
